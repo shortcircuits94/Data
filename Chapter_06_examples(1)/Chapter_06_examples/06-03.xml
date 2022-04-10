@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE ancient_wonders SYSTEM "06-04.dtd">
+<ancient_wonders>
+  <wonder>
+    <name language="English">Colossus of Rhodes</name>
+    <name language="Greek">Κολοσσός της Ρόδου</name>
+    <location>Rhodes, Greece</location>
+    <height units="feet">107</height>
+    <history>
+      <year_built era="BC">282</year_built>
+      <year_destroyed era="BC">226</year_destroyed>
+      <how_destroyed>earthquake</how_destroyed>
+      <story>In 294 BC, the people of the island of Rhodes ...</story>
+    </history>
+  </wonder>
+</ancient_wonders>

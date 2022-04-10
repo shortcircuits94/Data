@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE ancient_wonders SYSTEM "06-15.dtd">
+<ancient_wonders>
+  <wonder>
+    <name language="English">Colossus of Rhodes</name>
+    <name language="Greek">Κολοσσός της Ρόδου</name>
+    <location>Rhodes, Greece</location>
+    <height units="feet">107</height>
+    <history>
+      <year_built era="BC">282</year_built>
+      <year_destroyed era="BC">226</year_destroyed>
+      <how_destroyed>earthquake</how_destroyed>
+      <story>In 294 BC, the people of the island of Rhodes ...</story>
+    </history>
+    <main_image file="lighthouse.jpg" w="528" h="349"/>
+    <source sectionid="112" newspaperid="53"/>
+  </wonder>
+	<wonder>
+		<name language="English">Great Pyramid of Giza</name>
+		<location>Giza, Egypt</location>
+		<height units="feet">455</height>
+		<history>
+			<year_built era="BC">2570</year_built>
+			<story>It is believed to have taken 20 years ...</story>
+		</history>
+		<main_image file="pyramid.jpg" w="528" h="349"/>
+		<source sectionid="123" newspaperid="71"/>
+		<source sectionid="21" newspaperid="42"/>
+	</wonder></ancient_wonders>

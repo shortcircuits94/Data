@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="07-12.xsl"?>
+<!DOCTYPE ancient_wonders SYSTEM "07-09.dtd">
+
+<ancient_wonders>
+	<wonder>
+		<name language="English">Lighthouse of Alexandria</name>
+		<name language="Greek">ὁ Φάρος τῆς Ἀλεξανδρείας</name>
+<!-- ** XML2e ** -->
+<!-- this section is required for the XML to be valid and will be discussed later in the chapter -->
+		<photo source="lighthouse_pic"/>
+
+	</wonder>
+</ancient_wonders>

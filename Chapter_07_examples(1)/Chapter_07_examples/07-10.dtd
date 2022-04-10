@@ -1,0 +1,19 @@
+<!ELEMENT ancient_wonders (wonder*)> 
+<!ELEMENT wonder (name+, photo)> 
+<!ELEMENT name (#PCDATA) >
+<!ATTLIST name 
+          language CDATA #REQUIRED>
+
+<!NOTATION jpg SYSTEM "image/jpeg">
+
+<!-- ** XML2e ** -->
+<!-- to follow the book's example, see the section below -->
+<!ENTITY lighthouse_pic SYSTEM 
+          "lighthouse.jpg" NDATA jpg>
+
+<!-- ** XML2e ** -->
+<!-- this section is required for the XML to be valid and will be discussed later in the chapter -->
+<!-- DTDs don't require elements and attributes to be declared in any specific order -->
+<!ELEMENT photo EMPTY>
+<!ATTLIST photo 
+          source ENTITY #REQUIRED>

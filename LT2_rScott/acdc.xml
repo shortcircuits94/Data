@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE acdc SYSTEM "acdc.dtd">
+<!-- MIT 215 Lab #2
+Author: Rebecca Scott 
+ID: 0698711
+Date last modified: 01-25-2017 
+-->
+
+
+<acdc>
+	<title>AC/DC</title>
+	<subtitle>Discography</subtitle>
+	<album>
+		<record language="English">High Voltage</record> 
+		<release>February 17, 1975</release> 
+		<label name="Albert">Albert</label> 
+	</album>
+	<album>
+		<record language="English">T.N.T</record> 
+		<release>December 19, 1975</release> 
+		<label name="Albert">Albert</label> 
+	</album>
+	<album>
+		<record language="English">Dirty Deeds Done Dirt Cheap</record> 
+		<release>September 20, 1976</release> 
+		<label name="Albert/Atlantic">Albert/Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Let There Be Rock</record> 
+		<release>March 21, 1977</release> 
+		<label name="Atlantic">Albert/Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Powerage</record> 
+		<release>May 5, 1978</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Highway to Hell</record> 
+		<release>July 27, 1979</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Back in Black</record> 
+		<release>July 25, 1980</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">For Those About to Rock, We Salute You</record> 
+		<release>November 23, 1981</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Flick of the Switch</record> 
+		<release>August 15, 1983</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Fly on the Wall</record> 
+		<release>June 28, 1985</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Blow Up Your Video</record> 
+		<release>February 1, 1988</release> 
+		<label name="Epic">Epic</label> 
+	</album>
+	<album>
+		<record language="English">The Razors Edge</record> 
+		<release>September 24, 1990</release> 
+		<label name="Atlantic">Atlantic</label> 
+	</album>
+	<album>
+		<record language="English">Ballbreaker</record> 
+		<release>September 22, 1995</release> 
+		<label name="East West">East West</label> 
+	</album>
+	<album>
+		<record language="English">Stiff Upper Lip</record> 
+		<release>February 25, 2000</release> 
+		<label name="East West">East West</label> 
+	</album>
+	<album>
+		<record language="English">Black Ice</record> 
+		<release>October 20, 2008</release> 
+		<label name="Columbia">Columbia</label> 
+	</album>
+	<album>
+		<record language="English">Rock or Bust</record> 
+		<release>November 28, 2014</release> 
+		<label name="Albert/Columbia">Albert/Columbia</label> 
+	</album>
+</acdc>

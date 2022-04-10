@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE wonder SYSTEM "06-21.dtd">
+<wonder>
+
+<!-- ** XML2e ** -->
+<!-- to follow the book's example, see the section below -->
+  <height>39</height>
+  <height units="feet">39</height>
+  <height units="39">feet</height>
+
+</wonder>

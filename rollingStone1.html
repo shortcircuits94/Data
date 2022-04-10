@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<h2> Rolling Stone Top Ten Shows of All Time </h2>
+<p id="rollingstone"> </p>
+<script type="text/javascript" src="rollingStone.json"> </script>
+
+<script>
+
+$(function() {
+
+
+   
+
+   $.getJSON('rollingStone.json', function(data) {
+	var item = [];
+       $.each(data.person, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.number + "</td>" +
+           "<td>" + f.show + "</td>" + "<td>" + f.year + "</td>" + "<td>" + f.category + "</td>" + "</tr>"
+           $(tblRow).appendTo("#userdata tbody");
+     });
+
+   });
+
+});
+</script>
+
+
+<div class="wrapper">
+<div class="profile">
+   <table id= "userdata" border="2">
+  <thead>
+            <th>Number</th>
+            <th>Show</th>
+            <th>Year</th>
+            <th>Category</th>
+        </thead>
+      <tbody>
+
+       </tbody>
+   </table>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!ENTITY % p "(#PCDATA)">
+
+<!-- ** XML2e ** -->
+<!-- to follow the book's example, see the section below -->
+<!ENTITY % full_pic SYSTEM "pic.ent">
+
+<!ELEMENT ancient_wonders (wonder+)>
+<!ELEMENT wonder (name+, location, height, history, main_image, source*)>
+<!ELEMENT name %p;>
+<!ATTLIST name
+		language CDATA #REQUIRED>
+<!ELEMENT location %p;>
+<!ELEMENT height %p;>
+<!ATTLIST height
+		units CDATA #REQUIRED>
+<!ELEMENT history (year_built, year_destroyed?, how_destroyed?, story)>
+<!ELEMENT year_built %p;>
+<!ATTLIST year_built
+		era (BC | AD) #REQUIRED>
+<!ELEMENT year_destroyed %p;>
+<!ATTLIST year_destroyed
+		era (BC | AD) #REQUIRED>
+<!ELEMENT how_destroyed %p;>
+<!ELEMENT story (#PCDATA | para)*>
+<!ELEMENT para EMPTY>
+<!ELEMENT main_image EMPTY>
+<!ATTLIST main_image
+          file CDATA #REQUIRED
+          w CDATA #REQUIRED
+          h CDATA #REQUIRED>
+<!ELEMENT source EMPTY>
+<!ATTLIST source
+		sectionid CDATA #REQUIRED
+		newspaperid CDATA #REQUIRED>
+

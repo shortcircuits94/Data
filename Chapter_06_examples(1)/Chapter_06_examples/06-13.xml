@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE ancient_wonders SYSTEM "06-14.dtd">
+<ancient_wonders>
+  <wonder>
+    <name>Colossus of Rhodes</name>
+    <location>Rhodes, Greece</location>
+ </wonder>
+  <wonder>
+    Great Pyramid of Giza, Giza, Egypt
+  </wonder>
+  <wonder>
+    Temple of Artemis at Ephesus
+    <city>Ephesus</city>
+    <country>Turkey</country>
+ </wonder>
+</ancient_wonders>

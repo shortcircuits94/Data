@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:documentation>This XML Schema will be used to validate the set of XML documents for the Rolling Stone project.</xs:documentation>
+
+<xs:element name="Rolling_Stone">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="number" type="xs:string"/>
+	  <xs:attribute name="language" type="xs:string"/>
+      <xs:element name="show" type="xs:string"/>
+      <xs:element name="year" type="xs:string"/>
+      <xs:element name="category" type="xs:string"/>
+	  <xs:attribute name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

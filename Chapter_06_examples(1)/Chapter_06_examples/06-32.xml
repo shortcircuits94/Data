@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE ancient_wonders SYSTEM "06-31.dtd">
+<ancient_wonders>
+	<wonder code="w_143">
+		<name language="English">Hanging Gardens of Babylon</name>
+	</wonder>
+	<wonder code="w_284">
+		<name language="English">Statue of Zeus at Olympia</name>
+	</wonder>
+
+<!-- ** XML2e ** -->
+<!-- to follow the book's example, see the section below -->
+	<resources>
+	  <special_site wonder_focus="w_143">
+		<title>The Lost Gardens</title>
+		<url>www.lost-gardens.com</url>
+	  </special_site>
+	  <special_site wonder_focus="w_143">
+		<title>Herodotus in Babylon</title>
+		<url>www.herodotus.com/babylon</url>
+	  </special_site>
+	  <special_site wonder_focus="w_284">
+		<title>Zeus at Olympia</title>
+		<url>www.olympiaszeus.com</url>
+	  </special_site>
+	</resources>
+
+</ancient_wonders>

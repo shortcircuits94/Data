@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- MIT 215 Lab #3
+Author: Rebecca Scott 
+ID: 0698711
+Date last modified: 02-03-2017 
+-->
+
+<Rolling_Stone
+xsi:noNamespaceSchemaLocation="rollingStone.xsd">
+	<title>Rolling Stone's Top 10 Tv Shows of All Time</title>
+	<item>
+		<number>Ten</number>
+		<show language="English">The Daily Show</show> 
+		<year>1996-Present</year>
+		<category name="Talk show">Talk show</category>
+	</item>
+	<item>
+		<number>Nine</number>
+		<show language="English">All in the Family</show> 
+		<year>1971-1979</year>
+		<category name="Comedy">Comedy</category>
+	</item>
+	<item>
+		<number>Eight</number>
+		<show language="English">Saturday Night Live</show> 
+		<year>1975-Present</year>
+		<category name="Comedy">Comedy</category>
+	</item>
+	<item>
+		<number>Seven</number>
+		<show language="English">The Twilight Zone</show> 
+		<year>1959-1964</year>
+		<category name="Sci-fi">Sci-fi</category>
+	</item>
+	<item>
+		<number>Six</number>
+		<show language="English">The Simpsons</show> 
+		<year>1989-Present</year>
+		<category name="Comedy">Comedy</category>
+	</item>
+	<item>
+		<number>Five</number>
+		<show language="English">Seinfeld</show> 
+		<year>1989-1998</year>
+		<category name="Comedy">Comedy</category>
+	</item>
+	<item>
+		<number>Four</number>
+		<show language="English">Mad Men</show> 
+		<year>2007-2015</year>
+		<category name="Drama">Drama</category>
+	</item>
+	<item>
+		<number>Three</number>
+		<show language="English">Breaking Bad</show> 
+		<year>2008-2013</year>
+		<category name="Crime">Crime</category>
+	</item>
+	<item>
+		<number>Two</number>
+		<show language="English">The Wire</show> 
+		<year>2002-08</year>
+		<category name="Crime">Crime</category>
+	</item>
+	<item>
+		<number>One</number>
+		<show language="English">The Sopranos</show> 
+		<year>1999-2007</year>
+		<category name="Crime">Crime</category>
+	</item>
+</Rolling_Stone>

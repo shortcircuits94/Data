@@ -1,0 +1,15 @@
+<!ELEMENT ancient_wonders (wonder*)> 
+<!ELEMENT wonder (name+, photo)> 
+<!ELEMENT name (#PCDATA) >
+<!ATTLIST name 
+          language CDATA #REQUIRED>
+
+<!NOTATION jpg SYSTEM "image/jpeg">
+<!ENTITY lighthouse_pic SYSTEM 
+          "lighthouse.jpg" NDATA jpg>
+
+<!-- ** XML2e ** -->
+<!-- to follow the book's example, see the section below -->
+<!ELEMENT photo EMPTY>
+<!ATTLIST photo 
+          source ENTITY #REQUIRED>

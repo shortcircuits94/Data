@@ -1,0 +1,10 @@
+<!ELEMENT acdc (album+)>
+<!ELEMENT album (record, release, label)>
+
+<!ELEMENT record (#PCDATA)>
+<!ATTLIST record
+		language CDATA #REQUIRED>
+<!ELEMENT release (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ATTLIST label
+		name CDATA #REQUIRED>

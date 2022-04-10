@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<!-- MIT 215 Lab #1 
+Author: Rebecca Scott 
+ID: 0698711
+Date last modified: 01-18-2017 
+-->
+
+<Rare_items>
+	<title>Rare Jazz Collectibles</title>
+	<subtitle>New Offerings</subtitle>
+	<item>
+		<artist>Louis Armstrong</artist>
+		<record>Satchmo Serenades</record>
+		<year>1952</year>
+		<label>Decca</label>
+		<condition>VG+</condition>
+		<price>&#8377;2594.98</price>
+		<price>&#0243;B0.04 </price>
+	</item>
+		
+	<item>
+		<artist>Chris Connor</artist>
+		<record>Chris Connor - Live</record>
+		<year>1956</year>
+		<label>Atlantic</label>
+		<condition>EX++</condition>
+		<price>$125 CAN Dollars</price>
+		<price>&#8377;6487.45</price>
+		<price>&#0243;B0.11 </price>
+	</item>
+
+		
+	
+	<item>
+		<artist>Ella Fitzgerald</artist>
+		<record>The Cole Porter Songbook</record>
+		<year>1956</year>
+		<label>Verve</label>
+		<condition>EX-</condition>
+		<price>$100 CAN Dollars</price>
+		<price>&#8377;5189.96</price>
+		<price>&#0243;B0.08 </price>
+	</item>
+		
+	<item>
+		<artist>George Shearing</artist>
+		<record>I Hear MCANic</record>
+		<year>1955</year>
+		<label>MGM</label>
+		<condition>EX</condition>
+		<price>$100 CAN Dollars</price>
+		<price>&#8377;5189.96</price>
+		<price>&#0243;B0.08 </price>
+	</item>	
+		
+	
+	<item>
+		<artist>Miles Davis</artist>
+		<record>The MCANic of Al Cohn</record>
+		<year>1952</year>
+		<label>Prestige</label>
+		<condition>VG+</condition>
+		<price>$175 CAN Dollars</price>
+		<price>&#8377;9082.43</price>
+		<price>&#0243;B.015 </price>
+	</item>
+		
+	<message>Note to Collectors: The Jazz Warehouse specializes in locating hard-to-find records &lt;
+books. You may download an extensive catalog of our collection. If you can't find what
+you need, please contact us and we will perform a search for the item(s) you specify.</message>
+
+</Rare_items>

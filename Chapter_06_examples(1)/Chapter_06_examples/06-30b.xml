@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE ancient_wonders SYSTEM "06-29.dtd">
+<ancient_wonders>
+	<wonder code="w_284">
+		<name language="English">Hanging Gardens of Babylon</name>
+	</wonder>
+	<wonder code="w_284">
+		<name language="English">Statue of Zeus at Olympia</name>
+	</wonder>
+</ancient_wonders>

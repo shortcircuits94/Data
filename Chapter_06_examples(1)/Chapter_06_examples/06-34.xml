@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ancient_wonders SYSTEM "06-33.dtd">
+<ancient_wonders>
+	<wonder code="w_143">
+		<name language="English">Hanging Gardens of Babylon</name>
+	</wonder>
+	<wonder code="w_284">
+		<name language="English">Statue of Zeus at Olympia</name>
+	</wonder>
+
+	<!-- ** XML2e ** -->
+	<!-- to follow the book's example, see the section below -->
+	<general_site contents="w_143 w_284">
+		<title>Wonders of the World</title>
+		<url>http://www.wonders_of_the_world.com/</url>
+	</general_site>
+
+</ancient_wonders>
